@@ -32,9 +32,8 @@ public class Main {
 //        UaiEjercicio2.dibujarRectangulo(5,10);
         Multiples_Of_3_Or_5.ejercicio();
         Fibonacci.ejercicio();
-        NumeroPrimo.esPrimo(10);
-        NumeroPrimo.mostrar(10);
-        NumeroPrimo.factorizar(10);
+        NumeroPrimo.mostrar(7000);
+        NumeroPrimo.factorizar(600851475143L);
     }
 
     public static double prestamo(double saldo,double tasaInteres, double tiempo){
