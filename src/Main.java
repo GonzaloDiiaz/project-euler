@@ -1,8 +1,6 @@
 import ProgramacionEstructurada.UaiEjercicio1;
 import ProgramacionEstructurada.UaiEjercicio2;
-import ProjectEuler.Fibonacci;
-import ProjectEuler.Multiples_Of_3_Or_5;
-import ProjectEuler.NumeroPrimo;
+import ProjectEuler.*;
 import ProyectoUAI.*;
 import RoadMap.Ejercicio02;
 import RoadMap.Ejercicio04;
@@ -34,6 +32,8 @@ public class Main {
         Fibonacci.ejercicio();
         NumeroPrimo.mostrar(7000);
         NumeroPrimo.factorizar(600851475143L);
+        PalindromeProduct.ejercicio();
+        SmallestMultiple.ejercicio();
     }
 
     public static double prestamo(double saldo,double tasaInteres, double tiempo){
