@@ -1,9 +1,4 @@
-import ProgramacionEstructurada.UaiEjercicio1;
-import ProgramacionEstructurada.UaiEjercicio2;
 import ProjectEuler.*;
-import ProyectoUAI.*;
-import RoadMap.Ejercicio02;
-import RoadMap.Ejercicio04;
 
 import java.net.MalformedURLException;
 
@@ -34,6 +29,13 @@ public class Main {
         NumeroPrimo.factorizar(600851475143L);
         PalindromeProduct.ejercicio();
         SmallestMultiple.ejercicio();
+        SumSquare.ejercicio();
+        stPrime.llenarArray();
+        stPrime.mostrar(10001);
+        LargestProduct.ejercicio();
+        PythagoreanTriplet.ejercicio();
+        SumationOfPrimes.llenarArray();
+        SumationOfPrimes.sumar();
     }
 
     public static double prestamo(double saldo,double tasaInteres, double tiempo){
